@@ -63,13 +63,17 @@ git
     3. 스테이지의 스냅샷을 찍는다. (git commit)
 
 - 깃으로 관리하는 파일의 4가지 상태
-   - 추적이 안된상태(untracted)
-   - 추적된 상태 (track)
-      1. 수정없음
+   - 추적이 안된상태(untracted)-add가 한번도 없었던 상태
+   - 추적된 상태 (track)-add가 한번이라도 된상태
+      1. 수정없음:unmodified
+      2. 수정함:modified
+      3. 스테이지 됨
 
    - 예시
      - 새로운 파일을 만들었을때
        -untracked(추적안된상태)
     - add를 통해 스테이징
+    - commit을 통해 snapshot
+
 
 
